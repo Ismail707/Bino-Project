@@ -1,0 +1,992 @@
+@media only screen and (max-width : 767px) {
+    
+    .ptb-100{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    
+    /* Navbar */
+    .navbar-light .navbar-brand {
+        width: 95px;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+        font-size: 14px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .navbar-collapse {
+        background-color: #343434;
+    }
+    /* End Navbar */
+
+    /* Home Slider */
+    .slider-item {
+        height: 100%;
+    }
+    .slider-text {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .slider-text span {
+        font-size: 25px;
+        padding-top: 5px;
+        letter-spacing: 4px;
+    }
+    .slider-text h3 {
+        font-size: 15px;
+    }
+    .slider-text .shape {
+        margin-top: 12px;
+        margin-bottom: 7px;
+    }
+    .slider-text .shape:before {
+        width: 50px;
+        left: 18px;
+    }
+    .slider-text .shape:after {
+        width: 50px;
+        right: 20px;
+    }
+    .slider-text p {
+        padding-bottom: 25px;
+        font-size: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .slider-text .slider-btn a {
+        font-size: 12px;
+        width: 160px;
+        padding: 12px;
+    }
+    .slider-text .slider-btn .btn-two {
+        margin-top: 10px;
+    }
+    .home-slider:hover .owl-prev {
+        opacity: 0;
+    }
+    .home-slider:hover .owl-next {
+        opacity: 0;
+    }
+    /* End Home Slider */
+
+    /* About */
+    .down-arrow {
+        display: none;
+    }
+    .about-icon {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .about-item i {
+        font-size: 25px;
+    }
+    .about-item h3 {
+        padding: 22px 0 20px;
+        font-size: 16px;
+    }
+    .about-item h3:before {
+        bottom: 9px;
+    }
+    /* End About */
+
+    /* History */
+    .history-item h2 {
+        padding-left: 25px;
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .history-item h2:before {
+        width: 5px;
+        height: 30px;
+        top: 0px;
+    }
+    .history-item a {
+        margin-top: 30px;
+        width: 165px;
+        padding: 13px 0;
+        font-size: 12px;
+    }
+    /* End Histoey */
+
+    /* Service */
+    .service-area h2 {
+        padding-right: 0;
+        font-size: 25px;
+        text-align: left;
+        padding-left: 40px;
+        padding-bottom: 30px;
+    }
+    .service-area h2:before {
+        width: 5px;
+        height: 30px;
+        right: 0;
+        left: 15px;
+        top: 0px;
+    }
+    .service-area {
+        text-align: left;
+    }
+    .service-item ul li h3 {
+        padding-bottom: 10px;
+    }
+    .service-item ul li {
+        padding-bottom: 40px;
+        padding-right: 50px;
+        padding-left: 15px;
+    }
+    .service-item ul li i {
+        top: 32px;
+        right: 0;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+        box-shadow: 0px 0px 0px 3px rgba(244, 245, 246, 0.6);
+    }
+    .service-right {
+        height: 100%;
+    }
+    .service-item {
+        right: 0;
+        padding-left: 0;
+    }
+    .service-area .owl-theme .owl-nav.disabled+.owl-dots {
+        left: 0;
+        bottom: 0;
+        top: 100%;
+        width: 100%;
+        right: 0;
+    }
+    .service-area .owl-theme .owl-dots .owl-dot span {
+        width: 34px;
+        height: 2px;
+        margin: 5px 7px;
+    }
+    .service-area .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        width: 34px;
+    }
+    /* End Service */
+
+    /* Work */
+    .common-header h2 {
+        font-size: 25px;
+    }
+    .common-header p {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .common-header .shape-two:before {
+        width: 50px;
+        height: 1px;
+        left: 18px;
+    }
+    .common-header .shape-two:after {
+        width: 50px;
+        height: 1px;
+        right: 20px;
+    }
+    .common-header {
+        margin-bottom: 35px;
+    }
+    .sorting-menu li span {
+        padding: 0 10px;
+    }
+    .sorting-menu > ul > li {
+        font-size: 13px;
+    }
+    .sorting-menu {
+        margin-bottom: 30px;
+    }
+    .work-item .work-inner h3 {
+        font-size: 18px;
+        padding-bottom: 3px;
+    }
+    .work-item .work-inner p {
+        font-size: 13px;
+    }
+    .work-item .work-inner h3:before {
+        top: -12px;
+        width: 44px;
+        height: 2px;
+    }
+    /* End Work */
+
+    /* Study */
+    .study-area .study .study-slider {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .study-left {
+        padding: 50px 15px 70px;
+    }
+    .study-area .study-icon {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 35px;
+    }
+    .study-left i {
+        font-size: 25px;
+    }
+    .study-left h3 {
+        margin-bottom: 35px;
+    }
+    .study-left h3:before {
+        bottom: -18px;
+    }
+    .study-left a {
+        padding: 13px 28px;
+        margin-top: 30px;
+    }
+    .study-area .owl-theme .owl-nav.disabled+.owl-dots {
+        bottom: 20px;
+    }
+    /* End Study */
+
+    /* Counter */
+    .counter-item i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    .counter-item h3 {
+        font-size: 25px;
+        margin-bottom: 1px;
+    }
+    .counter-item p {
+        font-size: 15px;
+    }
+    /* End Counter */
+
+    /* Pricing */
+    .price-top h3 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+    .price-top-inner {
+        bottom: -40px;
+        width: 90px;
+        height: 90px;
+        box-shadow: 0px 0px 0px 6px rgba(244, 245, 246, 0.6);
+    }
+    .price-top-inner span {
+        font-size: 25px;
+        padding-top: 18px;
+        line-height: 20px;
+    }
+    .pricing-item ul {
+        margin-top: 70px;
+    }
+    .pricing-item ul li {
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+    .pricing-item a {
+        margin-top: 30px;
+        margin-bottom: 35px;
+        font-size: 11px;
+        width: 120px;
+        padding: 14px 0px;
+    }
+    /* End Pricing */
+
+    /* Team */
+    .team-area {
+        height: 440px;
+    }
+    .shape-img img {
+        height: 360px;
+    }
+    .team-area ul li:nth-child(1) {
+        top: 75px;
+    }
+    .team-area ul li:nth-child(2) {
+        top: 30px;
+    }
+    .team-area ul li:nth-child(3) {
+        top: 22px;
+    }
+    .team-area ul li:nth-child(4) {
+        top: 35px;
+    }
+    .team-area ul li:nth-child(5) {
+        top: -15px;
+    }
+    .team-item h3 {
+        font-size: 16px;
+        padding-top: 20px;
+        margin-bottom: 5px;
+    }
+    .team-item p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .team-bottom:before {
+        height: 15px;
+    }
+    /* End Team */
+    
+    /* Blog */
+    .blog-content span {
+        font-size: 13px;
+        padding-top: 30px;
+    }
+    .blog-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-content h3 {
+        font-size: 18px;
+        padding-top: 8px;
+        margin-bottom: 30px;
+    }
+    .blog-content h3:before {
+        bottom: -10px;
+        width: 44px;
+        height: 2px;
+    }
+    .blog-content p {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+    .blog-content a {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .blog-content a i {
+        font-size: 20px;
+        bottom: -3px;
+        left: 1px;
+    }
+    .blog-img {
+        height: 350px;
+    }
+    .content-two:after {
+        display: none;
+    }
+    .content-one:before {
+        display: none;
+    }
+    /* End Blog */
+
+    /* Touch */
+    .touch-item {
+        padding: 40px 15px 40px;
+    }
+    .touch-item ul li h3 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .touch-item ul li p {
+        font-size: 13px;
+    }
+    .touch-item ul li {
+        padding-bottom: 30px;
+    }
+    .touch-item ul li:last-child {
+        padding-bottom: 0;
+    }
+    .touch-item .form-control {
+        height: 40px;
+        padding: 0 0 10px;
+        font-size: 13px;
+    }
+    .form-btn {
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+    /* End Touch */
+
+    /* Free */
+    .free-item h2 {
+        font-size: 19px;
+        padding-bottom: 18px;
+    }
+    .free-item p {
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        font-size: 13px;
+    }
+    .free-item a {
+        font-size: 12px;
+        padding: 14px 22px;
+        margin-top: 25px;
+    }
+    /* End Free */
+
+    /* Footer */
+    footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-item {
+        text-align: center;
+    }
+    footer ul {
+        margin-bottom: 15px;
+    }
+    footer ul li a {
+        color: #999999;
+        margin-right: 12px;
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 13px;
+        text-align: center;
+    }
+    /* End Footer */
+
+    #toTop {
+        bottom: 22px;
+    }
+    .back-to-top-btn i {
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+        font-size: 23px;
+        margin-right: 8px;
+    }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+
+    /* Navbaar */
+    .navbar-light .navbar-brand {
+        width: 120px;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+        font-size: 18px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /* End Navbaar */
+
+    /* Home Slider */
+    .slider-text span {
+        font-size: 45px;
+        padding-top: 0px;
+    }
+    .slider-text h3 {
+        font-size: 20px;
+    }
+    .slider-text .shape {
+        margin-top: 11px;
+        margin-bottom: 10px;
+    }
+    .slider-text p {
+        max-width: 605px;
+        padding-bottom: 35px;
+    }
+    .slider-text .slider-btn a {
+        font-size: 13px;
+        width: 190px;
+        padding: 14px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .slider-item {
+        height: 100%;
+    }
+    .slider-text {
+        padding-top: 150px;
+        padding-bottom: 130px;
+    }
+    /* End Home Slider */
+
+    /* About */
+    .about-area .down-arrow i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 25px;
+    }
+    .about-item h3:before {
+        bottom: 14px;
+    }
+    /* End About */
+
+    /* History */
+    .history-item h2 {
+        padding-left: 25px;
+        font-size: 30px;
+        padding-bottom: 22px;
+    }
+    .history-item h2:before {
+        top: 1px;
+    }
+    .history-item a {
+        margin-top: 25px;
+        width: 195px;
+        padding: 18px 0;
+        font-size: 13px;
+    }
+    /* End History */
+
+    /* Service */
+    .service-item ul li {
+        padding-right: 90px;
+        padding-bottom: 35px;
+    }
+    .service-area h2 {
+        padding-right: 95px;
+        font-size: 30px;
+        padding-bottom: 45px;
+    }
+    .service-area h2:before {
+        right: 62px;
+        top: 1px;
+    }
+    .service-item ul li h3 {
+        padding-bottom: 10px;
+    }
+    .service-item ul li i {
+        top: 35px;
+        right: 0;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 22px;
+        box-shadow: 0px 0px 0px 4px rgba(244, 245, 246, 0.6);
+    }
+    .service-item {
+        right: -37px;
+        padding-left: 0;
+    }
+    .service-area .owl-theme .owl-nav.disabled+.owl-dots {
+        left: -35px;
+    }
+    /* End Service */
+
+    /* Work */
+    .common-header h2 {
+        font-size: 30px;
+    }
+    .common-header p {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .common-header {
+        margin-bottom: 40px;
+    }
+    .sorting-menu > ul > li {
+        font-size: 13px;
+    }
+    .sorting-menu li span {
+        padding: 0 10px;
+    }
+    .sorting-menu {
+        margin-bottom: 35px;
+    }
+    .work-item .work-inner {
+        bottom: 10px;
+        left: 10px;
+    }
+    .work-item .work-inner h3 {
+        font-size: 16px;
+        padding-bottom: 0px;
+    }
+    .work-item .work-inner p {
+        font-size: 13px;
+    }
+    .work-item .work-inner h3:before {
+        top: -10px;
+        width: 35px;
+        height: 2px;
+    }
+    .work-item .view-link i {
+        font-size: 30px;
+    }
+    /* End Work */
+
+    /* Study */
+    .study-left {
+        padding: 30px 15px 55px;
+    }
+    .study-area .study-icon {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+    .study-left i {
+        font-size: 22px;
+        left: 2px;
+        top: 2px;
+    }
+    .study-left h3 {
+        margin-bottom: 25px;
+    }
+    .study-left h3:before {
+        bottom: -14px;
+    }
+    .study-left a {
+        padding: 14px 30px;
+        margin-top: 18px;
+        font-size: 11px;
+    }
+    .study-area .owl-theme .owl-nav.disabled+.owl-dots {
+        bottom: 12px;
+    }
+    .study-area .study .study-slider {
+        top: 23px;
+        right: -8px;
+    }
+    /* End Study */
+
+    /* Counter */
+    .counter-item i {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    .counter-item h3 {
+        font-size: 24px;
+        margin-bottom: 3px;
+    }
+    .counter-item p {
+        font-size: 13px;
+    }
+    /* End Counter */
+
+    /* Pricing */
+    .price-top h3 {
+        font-size: 18px;
+        padding-top: 28px;
+        padding-bottom: 65px;
+    }
+    .price-top-inner {
+        bottom: -45px;
+        width: 95px;
+        height: 95px;
+        box-shadow: 0px 0px 0px 5px rgba(244, 245, 246, 0.6);
+    }
+    .price-top-inner span {
+        font-size: 28px;
+        padding-top: 22px;
+        line-height: 20px;
+    }
+    .pricing-item ul {
+        margin-top: 70px;
+    }
+    .pricing-item ul li {
+        font-size: 13px;
+        padding-bottom: 16px;
+    }
+    .pricing-item a {
+        margin-top: 35px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        width: 120px;
+        padding: 14px 0px;
+    }
+    /* End Pricing */
+
+    /* Team */
+    .team-area {
+        height: 500px;
+    }
+    .shape-img img {
+        height: 300px;
+    }
+    .team-area ul li:nth-child(1) {
+        top: 145px;
+    }
+    .team-area ul li:nth-child(3) {
+        top: 102px;
+    }
+    .team-area ul li:nth-child(4) {
+        top: 122px;
+    }
+    .team-area ul li:nth-child(5) {
+        top: 70px;
+    }
+    .team-item h3 {
+        font-size: 20px;
+    }
+    .team-item p {
+        font-size: 13px;
+    }
+    /* End Team */
+
+    /* Logo */
+    .logo-item img {
+        width: 65px;
+    }
+    .logo-item {
+        height: 95px;
+    }
+    /* End Logo */
+
+    /* Blog */
+    .blog-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog-content span {
+        padding-top: 20px;
+    }
+    .blog-content h3 {
+        font-size: 17px;
+        padding-top: 6px;
+        margin-bottom: 22px;
+    }
+    .blog-content h3:before {
+        bottom: -11px;
+        width: 44px;
+        height: 2px;
+    }
+    .blog-content p {
+        font-size: 12px;
+        padding-bottom: 5px;
+        line-height: 24px;
+    }
+    .blog-content a {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .content-one:before {
+        left: -30px;
+        border-left: 25px solid transparent;
+        border-top: 25px solid #e74e3e;
+        border-right: 25px solid transparent;
+    }
+    .content-two:after {
+        right: -30px;
+        border-left: 25px solid transparent;
+        border-top: 25px solid #e74e3e;
+        border-right: 25px solid transparent;
+    }
+    .blog-content a i {
+        font-size: 21px;
+    }
+    /* End Blog */
+
+    /* Touch */
+    .touch-item {
+        padding: 35px 25px 40px;
+    }
+    .touch-item ul li h3 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .touch-item ul li p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .touch-item ul li {
+        padding-bottom: 30px;
+    }
+    .touch-item .form-group {
+        margin-bottom: 15px;
+    }
+    .touch-item .form-control {
+        height: 45px;
+        padding: 0 0 10px;
+        font-size: 13px;
+    }
+    .form-btn {
+        padding: 11px 20px;
+        font-size: 12px;
+    }
+    .touch-item ul li:last-child {
+        padding-bottom: 0;
+    }
+    /* End Touch */
+
+    /* Free */
+    .free-item h2 {
+        font-size: 28px;
+        padding-bottom: 16px;
+    }
+    .free-item p {
+        font-size: 14px;
+    }
+    .free-item a {
+        font-size: 12px;
+        padding: 14px 25px;
+        margin-top: 40px;
+    }
+    /* End Free */
+
+    /* Footer */
+    footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    footer p {
+        font-size: 13px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    footer ul li a {
+        margin-right: 14px;
+        font-size: 18px;
+    }
+    /* End Footer */
+
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    
+    /* Navbar */
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+        margin-left: 30px;
+    }
+    /* End Navbar */
+
+    /* Home Slider */
+    .slider-text span {
+        font-size: 60px;
+        padding-top: 5px;
+    }
+    .slider-text .shape {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .slider-text p {
+        padding-bottom: 35px;
+    }
+    .slider-text .slider-btn a {
+        font-size: 14px;
+        width: 210px;
+        padding: 18px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .slider-item {
+        height: 100%;
+    }
+    .slider-text {
+        padding-top: 185px;
+        padding-bottom: 170px;
+    }
+    /* End Home Slider */
+
+    /* Study */
+    .study-left {
+        padding: 50px 40px 60px;
+    }
+    .study-area .study-icon {
+        margin-bottom: 45px;
+    }
+    .study-left h3 {
+        margin-bottom: 35px;
+    }
+    .study-left h3:before {
+        bottom: -18px;
+    }
+    .study-left a {
+        margin-top: 30px;
+    }
+    .study-area .owl-theme .owl-nav.disabled+.owl-dots {
+        bottom: 30px;
+    }
+    .study-area .study .study-slider {
+        right: -20px;
+    }
+    /* End Study */
+
+    /* Counter */
+    .counter-item p {
+        font-size: 16px;
+    }
+    /* End Counter */
+    
+    /* Team */
+    .team-area {
+        height: 630px;
+    }
+    .shape-img img {
+        height: 495px;
+    }
+    .team-area ul li:nth-child(1) {
+        top: 133px;
+    }
+    .team-area ul li:nth-child(2) {
+        top: 65px;
+    }
+    .team-area ul li:nth-child(3) {
+        top: 55px;
+    }
+    .team-area ul li:nth-child(4) {
+        top: 82px;
+    }
+    .team-area ul li:nth-child(5) {
+        top: -13px;
+    }
+    /* End Team */
+
+    /* Blog */
+    .blog-content p {
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+    .blog-content a {
+        font-size: 16px;
+    }
+    /* End Blog */
+
+    /* Logo */
+    .logo-item img {
+        width: 140px;
+    }
+    /* End Logo */
+
+    /* Back to Top */
+    #toTop {
+        bottom: 68px;
+    }
+    /* End Back to Top */
+}
+
+@media only screen and (min-width : 1400px) {
+
+    .team-area ul li:nth-child(1) {
+        top: 148px;
+    }
+    .team-area ul li:nth-child(2) {
+        top: 100px;
+    }
+    .team-area ul li:nth-child(5) {
+        top: 97px;
+    }
+}
